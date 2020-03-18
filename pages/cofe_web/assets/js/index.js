@@ -19,10 +19,10 @@ $(document).ready(function() {
     
     if($('.btn-more').children().attr('name')==='arrow-up-circle-outline') {
       $('.btn-more').children().attr('name', 'arrow-down-circle-outline');
-      $('span').text('Learn More');
+      $('.js--btn-more').text('Learn More');
     } else {
       $('.btn-more').children().attr('name', 'arrow-up-circle-outline');
-      $('span').text('Collapse');
+      $('.js--btn-more').text('Collapse');
     }
     
   });
