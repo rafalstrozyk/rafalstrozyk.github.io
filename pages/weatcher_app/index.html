@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;700&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="css/style.css"><title>WeatcherApp</title></head><body><script>function historyMenu() {
+            const x = document.getElementById('top_nav');
+            if (x.className === "left-half") {
+              x.className += " topnav";
+            } else {
+                x.className = "left-half";
+            }
+        }</script><section class="container"><div class="left-half topnav" id="top_nav"><div class="cities" id="scroll" data-simplebar data-simplebar-auto-hide="false"></div></div><div class="right-half"><div class="search u-center-text"><label for="search-input" class="search__label">Weatcher Search</label><div class="search__box u-margin-bottom-medium"><input placeholder="country" id="search-input" class="search__input search__input-js"> <button class="search__button search__button-js btn btn--primary"><i class="icon-basic-magnifier"></i></button></div></div><div class="weather weather-js"></div></div></section><script src="js/app.js"></script></body></html>
